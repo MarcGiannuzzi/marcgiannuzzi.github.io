@@ -68,7 +68,3 @@ In order to compile the assets and run `Jekyll` locally you need to follow those
 - Open pull request with improvements
 - Spread the word
 - Reach out to me directly at <marc.giannuzzi@gmail.com>
-
-# Buy me a coffee to show your support!
-
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/marcgiannuzzi)
