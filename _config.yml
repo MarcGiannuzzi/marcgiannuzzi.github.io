@@ -16,7 +16,7 @@ email: marc.giannuzzi@gmail.com
 # medium_url: 
 # gplus_username:  
 # instagram_username: 
-linkedin_username: Marc Giannuzzi
+linkedin_username: marc-giannuzzi-b098b216b
 github_username:  marcgiannuzzi
 exclude: ['package.json', 'src', 'node_modules', 'vendor']
 
