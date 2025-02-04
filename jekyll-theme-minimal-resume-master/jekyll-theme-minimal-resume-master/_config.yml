@@ -1,0 +1,22 @@
+# Site settings
+title: Marc Giannuzzi
+description: Jekyll Theme Minimal Resume
+# baseurl: "" # the subpath of your site, e.g. /blog
+# url: "localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+
+# User settings
+username: Marc Giannuzzi
+user_description: I'm a Software Engineer from France, always searching for the next challenge; no task is too scary nor too difficult. 
+user_title: Software Engineer
+email: marc.giannuzzi@gmail.com
+
+# twitter_username: 
+# facebook_username: 
+# medium_username: 
+# medium_url: 
+# gplus_username:  
+# instagram_username: 
+linkedin_username: Marc Giannuzzi
+github_username:  marcgiannuzzi
+exclude: ['package.json', 'src', 'node_modules', 'vendor']
+
