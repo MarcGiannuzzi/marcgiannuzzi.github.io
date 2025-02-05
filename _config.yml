@@ -8,7 +8,7 @@ description: Jekyll Theme Minimal Resume
 username: Marc Giannuzzi
 user_description: I'm a Software Engineer from France, always searching for the next challenge; no task is too scary nor too difficult. 
 user_title: Software Engineer
-email: marc.giannuzzi@gmail.com
+# email: marc.giannuzzi@gmail.com # cannot send email directly 
 
 # twitter_username: 
 # facebook_username: 
