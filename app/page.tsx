@@ -1,7 +1,6 @@
 import { Button } from "@/components/ui/button"
 import { Github, Linkedin, Mail, Twitter } from "lucide-react"
 import Link from "next/link"
-import ContactForm from "./components/contact-form"
 import ProjectCard from "./components/project-card"
 import TechStack from "./components/tech-stack"
 
@@ -110,17 +109,6 @@ export default function Page() {
               Tech Stack
             </h2>
             <TechStack />
-          </div>
-        </section>
-
-        <section id="contact" className="py-12 md:py-24 lg:py-32">
-          <div className="container px-4 md:px-6">
-            <div className="mx-auto max-w-2xl">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl mb-12 text-center">
-                Get in Touch
-              </h2>
-              <ContactForm />
-            </div>
           </div>
         </section>
       </main>
