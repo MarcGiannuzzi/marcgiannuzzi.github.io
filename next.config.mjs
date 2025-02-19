@@ -17,6 +17,4 @@ const nextConfig = {
   output: 'export',
 }
 
-mergeConfig(nextConfig, userConfig)
-
 export default nextConfig
