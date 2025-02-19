@@ -11,7 +11,7 @@ export default function Page() {
         <div className="container flex h-14 items-center">
           <div className="mr-4 hidden md:flex">
             <Link className="mr-6 flex items-center space-x-2" href="/">
-              <span className="hidden font-bold sm:inline-block">John.dev</span>
+              <span className="hidden font-bold sm:inline-block">Marc Giannuzzi</span>
             </Link>
             <nav className="flex items-center space-x-6 text-sm font-medium">
               <Link href="#about" className="transition-colors hover:text-foreground/80">
@@ -26,7 +26,9 @@ export default function Page() {
             </nav>
           </div>
           <Button variant="outline" className="ml-auto">
-            Resume
+            <Link href="https://github.com/MarcGiannuzzi/cv/blob/main/Marc_Giannuzzi_CV_English.pdf" className="transition-colors hover:text-foreground/80">
+              Resume
+            </Link>
           </Button>
         </div>
       </header>
@@ -37,7 +39,7 @@ export default function Page() {
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
                 <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none">
-                  Full Stack Developer
+                  Machine Learning / Software Engineer 🚀
                 </h1>
                 <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl dark:text-gray-400">
                   Building digital experiences with modern technologies. Focused on creating elegant solutions to
@@ -45,25 +47,19 @@ export default function Page() {
                 </p>
               </div>
               <div className="space-x-4">
-                <Link href="https://github.com" target="_blank">
+                <Link href="https://github.com/marcgiannuzzi" target="_blank">
                   <Button variant="outline" size="icon">
                     <Github className="h-4 w-4" />
                     <span className="sr-only">GitHub</span>
                   </Button>
                 </Link>
-                <Link href="https://linkedin.com" target="_blank">
+                <Link href="https://www.linkedin.com/in/marc-giannuzzi-b098b216b/" target="_blank">
                   <Button variant="outline" size="icon">
                     <Linkedin className="h-4 w-4" />
                     <span className="sr-only">LinkedIn</span>
                   </Button>
                 </Link>
-                <Link href="https://twitter.com" target="_blank">
-                  <Button variant="outline" size="icon">
-                    <Twitter className="h-4 w-4" />
-                    <span className="sr-only">Twitter</span>
-                  </Button>
-                </Link>
-                <Link href="mailto:hello@example.com">
+                <Link href="mailto:marc.giannuzzi@gmail.com">
                   <Button variant="outline" size="icon">
                     <Mail className="h-4 w-4" />
                     <span className="sr-only">Email</span>
@@ -79,25 +75,25 @@ export default function Page() {
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl mb-12 text-center">Projects</h2>
             <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
               <ProjectCard
-                title="E-commerce Platform"
-                description="A full-stack e-commerce platform built with Next.js, Prisma, and Stripe integration."
-                image="/placeholder.svg?height=400&width=600"
-                link="https://github.com"
-                tags={["Next.js", "Prisma", "Stripe"]}
+                title="AI Food recommandation system"
+                description="Food recommndation system for healthy recipes"
+                image="https://media.istockphoto.com/id/1457433817/fr/photo/groupe-daliments-sains-pour-le-r%C3%A9gime-flexitarien.jpg?s=612x612&w=0&k=20&c=bzXH4xythBCnP3zGgohW_YKX1LrJaOPGldoQnWaVK6M="
+                link="https://github.com/MarcGiannuzzi/food.recommandation.system"
+                tags={["Tensorflow", "Python", "Keras"]}
               />
               <ProjectCard
-                title="Task Management App"
+                title="Song analysis"
                 description="A real-time task management application with team collaboration features."
-                image="/placeholder.svg?height=400&width=600"
-                link="https://github.com"
-                tags={["React", "Node.js", "Socket.io"]}
+                image="https://www.philosophytalk.org/sites/default/files/styles/large_blog__900x400_/public/silhouette-musical-note-clef-b.jpg"
+                link="https://github.com/MarcGiannuzzi/song.analysis"
+                tags={["Python", "Node.js", "Fbeamer"]}
               />
               <ProjectCard
-                title="AI Chat Interface"
-                description="An AI-powered chat interface with natural language processing capabilities."
-                image="/placeholder.svg?height=400&width=600"
-                link="https://github.com"
-                tags={["OpenAI", "Next.js", "TailwindCSS"]}
+                title="AI tools website (in construction)"
+                description="Website giving user many options to automate AI related tasks"
+                image="https://www.polytechnique-insights.com/wp-content/uploads/2024/01/adobestock_621477974-1-scaled.jpeg"
+                link="https://github.com/ta-da-ta/"
+                tags={["OpenAI", "Next.js", "Python"]} 
               />
             </div>
           </div>
@@ -115,15 +111,7 @@ export default function Page() {
 
       <footer className="border-t">
         <div className="container flex flex-col gap-2 sm:flex-row py-6 w-full shrink-0 items-center px-4 md:px-6">
-          <p className="text-xs text-gray-500 dark:text-gray-400">© 2024 John.dev. All rights reserved.</p>
-          <nav className="sm:ml-auto flex gap-4 sm:gap-6">
-            <Link className="text-xs hover:underline underline-offset-4" href="#">
-              Terms of Service
-            </Link>
-            <Link className="text-xs hover:underline underline-offset-4" href="#">
-              Privacy
-            </Link>
-          </nav>
+          <p className="text-xs text-gray-500 dark:text-gray-400">© Marc Giannuzzi. All rights reserved.</p>
         </div>
       </footer>
     </div>
