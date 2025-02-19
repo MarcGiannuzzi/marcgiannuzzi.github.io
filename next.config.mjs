@@ -5,8 +5,13 @@ try {
   // ignore error
 }
 
+
+module.exports = nextConfig;
+
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: "export",
   eslint: {
     ignoreDuringBuilds: true,
   },
