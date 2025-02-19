@@ -63,6 +63,10 @@ jobs:
         env:
           PAGES_BASE_PATH: ${{ steps.setup_pages.outputs.base_path }}
 
+      - name: Verify build output
+        run: ls -la
+        working-directory: .
+          
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
