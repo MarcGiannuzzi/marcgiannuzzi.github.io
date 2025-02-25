@@ -47,7 +47,6 @@ const technologies = [
       "Docker",
       "Podman",
       "Kubernetes",
-      "K3s",
       "GitHub Actions",
       "GitLab CI/CD",
       "Terraform",
@@ -55,7 +54,6 @@ const technologies = [
       "AWS",
       "GCP",
       "Azure",
-      "HashiCorp Boundary"
     ],
   },
   {
@@ -66,7 +64,6 @@ const technologies = [
       "LLamaIndex",
       "TensorFlow",
       "PyTorch",
-      "Weights & Biases",
       "MLflow",
       "Apache Airflow",
       "Grafana",
@@ -75,8 +72,6 @@ const technologies = [
       "Ray",
       "Polars",
       "Pytest",
-      "Falco",
-      "Poetry",
       "Conda",
       "Pipenv",
       "Terraform",
