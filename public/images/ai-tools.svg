@@ -1,0 +1,49 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="#f3f4f6"/>
+  <g transform="translate(200, 150)">
+    <!-- Central AI brain/chip -->
+    <rect x="-40" y="-40" width="80" height="80" rx="8" fill="#6366f1" stroke="#4f46e5" stroke-width="2"/>
+    <circle cx="0" cy="0" r="20" fill="#e0e7ff"/>
+
+    <!-- Circuit patterns -->
+    <line x1="-20" y1="0" x2="-40" y2="0" stroke="#818cf8" stroke-width="2"/>
+    <line x1="20" y1="0" x2="40" y2="0" stroke="#818cf8" stroke-width="2"/>
+    <line x1="0" y1="-20" x2="0" y2="-40" stroke="#818cf8" stroke-width="2"/>
+    <line x1="0" y1="20" x2="0" y2="40" stroke="#818cf8" stroke-width="2"/>
+
+    <!-- Tool icons around -->
+    <!-- Gear -->
+    <g transform="translate(-70, -70)">
+      <circle cx="0" cy="0" r="12" fill="none" stroke="#64748b" stroke-width="2"/>
+      <circle cx="0" cy="0" r="6" fill="#64748b"/>
+      <path d="M0,-12 l3,3 l-3,3 l3,3 l-3,3 l3,3 l-3,3 l3,3 l-3,3" stroke="#64748b" stroke-width="2" fill="none"/>
+    </g>
+
+    <!-- Code brackets -->
+    <g transform="translate(70, -70)">
+      <text x="0" y="5" text-anchor="middle" font-family="monospace" font-size="20" font-weight="bold" fill="#059669">&lt;/&gt;</text>
+    </g>
+
+    <!-- Chart -->
+    <g transform="translate(70, 70)">
+      <rect x="-2" y="-5" width="4" height="10" fill="#dc2626"/>
+      <rect x="3" y="-8" width="4" height="13" fill="#f59e0b"/>
+      <rect x="8" y="-3" width="4" height="8" fill="#10b981"/>
+    </g>
+
+    <!-- Lightbulb -->
+    <g transform="translate(-70, 70)">
+      <circle cx="0" cy="-3" r="8" fill="#fbbf24" stroke="#f59e0b" stroke-width="1"/>
+      <rect x="-4" y="3" width="8" height="4" fill="#f59e0b"/>
+    </g>
+
+    <!-- Neural network nodes in center -->
+    <circle cx="-8" cy="-8" r="3" fill="#4f46e5"/>
+    <circle cx="8" cy="-8" r="3" fill="#4f46e5"/>
+    <circle cx="0" cy="8" r="3" fill="#4f46e5"/>
+    <line x1="-8" y1="-8" x2="8" y2="-8" stroke="#4f46e5" stroke-width="1" opacity="0.5"/>
+    <line x1="-8" y1="-8" x2="0" y2="8" stroke="#4f46e5" stroke-width="1" opacity="0.5"/>
+    <line x1="8" y1="-8" x2="0" y2="8" stroke="#4f46e5" stroke-width="1" opacity="0.5"/>
+  </g>
+  <text x="200" y="250" text-anchor="middle" font-family="system-ui" font-size="18" font-weight="bold" fill="#475569">AI Tools Platform</text>
+</svg>
