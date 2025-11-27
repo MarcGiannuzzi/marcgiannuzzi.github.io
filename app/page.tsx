@@ -107,7 +107,7 @@ export default function Page() {
                   <Badge variant="secondary">PostgreSQL</Badge>
                   <Badge variant="secondary">MongoDB</Badge>
                   <Badge variant="secondary">Python</Badge>
-                  <Badge variant="secondary">Typescrip</Badge>
+                  <Badge variant="secondary">Typescript</Badge>
                   <Badge variant="secondary">Flutter</Badge>
                 </div>
               </CardContent>
@@ -179,7 +179,7 @@ export default function Page() {
                 <div className="flex justify-between items-start">
                   <div>
                     <CardTitle>Data Engineer</CardTitle>
-                    <CardDescription>Engie via Visian • Paris</CardDescription>
+                    <CardDescription>Engie via Visian • Bagneux</CardDescription>
                   </div>
                   <Badge variant="outline">Jan 2023 - Jan 2025</Badge>
                 </div>
@@ -192,9 +192,9 @@ export default function Page() {
                 <ul className="text-sm text-muted-foreground space-y-1 mb-3 list-disc list-inside">
                   <li>Built REST APIs handling 100k+ daily requests with sub-second latency</li>
                   <li>Architected AWS microservices and digital platforms</li>
-                  <li>Scaled Deep Learning algorithms (DeepAR, Temporal Fusion Transformer)</li>
+                  <li>Scaled with data scientists Deep Learning algorithms (DeepAR, Temporal Fusion Transformer)</li>
+                  <li>Worked on technology migration roadmap within SAFe train</li>
                   <li>Optimized database flows with advanced indexing and structure improvements</li>
-                  <li>Led technology migration roadmap within SAFe train</li>
                 </ul>
                 <div className="flex flex-wrap gap-2">
                   <Badge variant="secondary">AWS Lambda</Badge>
@@ -213,7 +213,7 @@ export default function Page() {
               <CardHeader>
                 <div className="flex justify-between items-start">
                   <div>
-                    <CardTitle>Data Consultant & Technical Lead</CardTitle>
+                    <CardTitle>Data Engineer Consultant</CardTitle>
                     <CardDescription>Visian • La Défense</CardDescription>
                   </div>
                   <Badge variant="outline">Jan 2023 - Jan 2025</Badge>
@@ -244,7 +244,7 @@ export default function Page() {
                 <div className="flex justify-between items-start">
                   <div>
                     <CardTitle>Lead Data Scientist</CardTitle>
-                    <CardDescription>Aqua Digital Rising • Paris</CardDescription>
+                    <CardDescription>Aqua Digital Rising • France</CardDescription>
                   </div>
                   <Badge variant="outline">Aug 2021 - Oct 2022</Badge>
                 </div>
