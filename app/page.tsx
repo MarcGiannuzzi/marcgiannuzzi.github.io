@@ -77,7 +77,7 @@ export default function Page() {
               <ProjectCard
                 title="AI Food recommandation system"
                 description="Food recommndation system for healthy recipes"
-                image="https://media.istockphoto.com/id/1457433817/fr/photo/groupe-daliments-sains-pour-le-r%C3%A9gime-flexitarien.jpg?s=612x612&w=0&k=20&c=bzXH4xythBCnP3zGgohW_YKX1LrJaOPGldoQnWaVK6M="
+                image="https://imageio.forbes.com/specials-images/imageserve/675b36c661cb5ba772796409/Woman-taking-photo-of-breakfast-served-in-cafe/0x0.jpg?width=960&dpr=1"
                 link="https://github.com/MarcGiannuzzi/food.recommandation.system"
                 tags={["Tensorflow", "Python", "Keras"]}
               />
