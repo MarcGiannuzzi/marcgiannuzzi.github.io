@@ -5,6 +5,7 @@ import { Github, Linkedin, Mail, Award, Briefcase, GraduationCap } from "lucide-
 import Link from "next/link"
 import ProjectCard from "./components/project-card"
 import TechStack from "./components/tech-stack"
+import { ThemeToggle } from "@/components/theme-toggle"
 
 export default function Page() {
   return (
@@ -33,11 +34,14 @@ export default function Page() {
               </Link>
             </nav>
           </div>
-          <Button variant="outline" className="ml-auto">
-            <Link href="https://github.com/MarcGiannuzzi/cv/blob/main/Marc_Giannuzzi_CV_English.pdf" className="transition-colors hover:text-foreground/80">
-              Resume
-            </Link>
-          </Button>
+          <div className="ml-auto flex items-center space-x-2">
+            <ThemeToggle />
+            <Button variant="outline">
+              <Link href="https://github.com/MarcGiannuzzi/cv/blob/main/Marc_Giannuzzi_CV_English.pdf" className="transition-colors hover:text-foreground/80">
+                Resume
+              </Link>
+            </Button>
+          </div>
         </div>
       </header>
 
