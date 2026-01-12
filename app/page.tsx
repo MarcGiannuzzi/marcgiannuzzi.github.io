@@ -86,7 +86,7 @@ export default function Page() {
 
           <div className="space-y-8">
             {/* Current Position */}
-            <Card>
+            {/* <Card>
 
             <CardHeader>
                 <div className="flex justify-between items-start">
@@ -99,7 +99,7 @@ export default function Page() {
               </CardHeader>
               <CardContent>
                 <p className="text-sm text-muted-foreground mb-3">
-                  Developing tools for automating IA : https://waiyer.com
+                  Developing tools for automating AI : https://waiyer.com
                 </p>
                 <div className="flex flex-wrap gap-2">
                   <Badge variant="secondary">Kubernetes</Badge>
@@ -111,7 +111,7 @@ export default function Page() {
                   <Badge variant="secondary">Flutter</Badge>
                 </div>
               </CardContent>
-            </Card>
+            </Card> */}
 
             <Card>
               <CardHeader>
