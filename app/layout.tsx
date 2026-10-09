@@ -1,5 +1,4 @@
 import { ThemeProvider } from "@/components/theme-provider"
-import { FaviconSync } from "@/components/favicon-sync"
 import { cn } from "@/lib/utils"
 import type { Metadata } from "next"
 import { Inter } from "next/font/google"
@@ -10,7 +9,8 @@ const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
   title: "Marc Giannuzzi",
-  description: "Portfolio showcasing projects and skills"
+  description:
+    "Marc Giannuzzi: data engineering, AI and cybersecurity, from architecture to production. Founder of Tadata and Waiyers."
 }
 
 export default function RootLayout({
@@ -22,7 +22,6 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <body className={cn("min-h-screen bg-background font-sans antialiased", inter.className)}>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
-          <FaviconSync />
           {children}
         </ThemeProvider>
       </body>

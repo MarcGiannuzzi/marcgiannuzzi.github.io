@@ -3,7 +3,8 @@ import Portfolio from "../components/portfolio"
 
 export const metadata: Metadata = {
   title: "Marc Giannuzzi",
-  description: "Portfolio présentant mes projets et compétences",
+  description:
+    "Marc Giannuzzi : data engineering, IA et cybersécurité, de l'architecture à la mise en production. Fondateur de Tadata et Waiyers.",
 }
 
 export default function Page() {

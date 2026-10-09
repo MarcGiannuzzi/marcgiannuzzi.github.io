@@ -1,17 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <style>
-    .tile { fill: #0a0a0a; }
-    .body { stroke: #fff; }
-    .head-dark { display: none; }
-    @media (prefers-color-scheme: dark) {
-      .tile { fill: #fff; }
-      .body { stroke: #0a0a0a; }
-      .head-light { display: none; }
-      .head-dark { display: inline; }
-    }
-  </style>
-  <rect class="tile" width="64" height="64" rx="16"/>
-  <circle class="head-light" cx="32" cy="24" r="9" fill="#fff"/>
-  <circle class="head-dark" cx="32" cy="24" r="7.5" fill="none" stroke="#0a0a0a" stroke-width="5"/>
-  <path class="body" d="M14 52c0-10 8-16 18-16s18 6 18 16" fill="none" stroke-width="7" stroke-linecap="round"/>
+  <rect width="64" height="64" rx="16" fill="#fff"/>
+  <circle cx="32" cy="24" r="7.5" fill="none" stroke="#0a0a0a" stroke-width="5"/>
+  <path d="M14 52c0-10 8-16 18-16s18 6 18 16" fill="none" stroke="#0a0a0a" stroke-width="7" stroke-linecap="round"/>
 </svg>
