@@ -334,8 +334,8 @@ const en: Content = {
       school: "Lycée Janson de Sailly",
       url: "https://www.janson-de-sailly.fr/",
       meta: "2016 • Paris, France",
-      description: "French Baccalauréat with honors (mention Bien), Chinese as second foreign language.",
-      tags: ["Baccalauréat", "Mention Bien", "Chinese (LV2)"],
+      description: "Scientific Baccalauréat (Bac S), Engineering Sciences (SI) track, with honors (mention Bien). Chinese as second foreign language.",
+      tags: ["Bac S", "Engineering Sciences (SI)", "Mention Bien", "Chinese (LV2)"],
     },
   ],
   certifications: {
@@ -607,8 +607,8 @@ const fr: Content = {
       school: "Lycée Janson de Sailly",
       url: "https://www.janson-de-sailly.fr/",
       meta: "2016 • Paris, France",
-      description: "Baccalauréat mention Bien, LV2 chinois.",
-      tags: ["Baccalauréat", "Mention Bien", "Chinois (LV2)"],
+      description: "Baccalauréat scientifique (Bac S), spécialité Sciences de l'Ingénieur (SI), mention Bien. LV2 chinois.",
+      tags: ["Bac S", "Sciences de l'Ingénieur (SI)", "Mention Bien", "Chinois (LV2)"],
     },
   ],
   certifications: {
