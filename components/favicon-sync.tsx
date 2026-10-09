@@ -11,7 +11,7 @@ export function FaviconSync() {
   useEffect(() => {
     if (!resolvedTheme) return
     const href = resolvedTheme === "dark" ? "/icon-dark.svg" : "/icon-light.svg"
-    document.querySelectorAll<HTMLLinkElement>('link[rel~="icon"]').forEach((link) => {
+    document.querySelectorAll<HTMLLinkElement>('link[rel~="icon"][type="image/svg+xml"]').forEach((link) => {
       link.href = href
     })
   }, [resolvedTheme])
