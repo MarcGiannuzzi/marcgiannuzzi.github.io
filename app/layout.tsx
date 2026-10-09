@@ -1,4 +1,5 @@
 import { ThemeProvider } from "@/components/theme-provider"
+import { FaviconSync } from "@/components/favicon-sync"
 import { cn } from "@/lib/utils"
 import type { Metadata } from "next"
 import { Inter } from "next/font/google"
@@ -21,6 +22,7 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <body className={cn("min-h-screen bg-background font-sans antialiased", inter.className)}>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
+          <FaviconSync />
           {children}
         </ThemeProvider>
       </body>
