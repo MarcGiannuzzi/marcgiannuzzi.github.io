@@ -27,6 +27,9 @@ export interface Experience {
   title: string
   company: string
   url?: string
+  // Joint ventures: each partner gets its own logo and name link (overrides logos/url)
+  partners?: { name: string; href: string; logo: string }[]
+  location?: string
   period: string
   description: string
   links?: ExternalLink[]
@@ -75,6 +78,11 @@ export interface Content {
 const ventures: ExternalLink[] = [
   { label: "tadata.fr", href: "https://tadata.fr/", logo: "/logos/tadata.png" },
   { label: "waiyers.com", href: "https://waiyers.com/", logo: "/logos/waiyers.png" },
+]
+
+const partners = [
+  { name: "Waiyers", href: "https://waiyers.com/", logo: "/logos/waiyers.png" },
+  { name: "Tadata", href: "https://tadata.fr/", logo: "/logos/tadata.png" },
 ]
 
 const waiyersTags = [
@@ -140,7 +148,8 @@ const en: Content = {
       logos: ["/logos/waiyers.png", "/logos/tadata.png"],
       title: "Founder (Freelance)",
       company: "Waiyers × Tadata • Paris",
-      url: "https://waiyers.com/",
+      partners,
+      location: "Paris",
       period: "Sept 2025 - Present",
       description:
         "Waiyers develops a suite of focused applications behind one shared account. Blog, tech news and data/AI/cloud consulting published on tadata.fr.",
@@ -411,7 +420,8 @@ const fr: Content = {
       logos: ["/logos/waiyers.png", "/logos/tadata.png"],
       title: "Fondateur (Auto-entrepreneur)",
       company: "Waiyers × Tadata • Paris",
-      url: "https://waiyers.com/",
+      partners,
+      location: "Paris",
       period: "Sept 2025 - Aujourd'hui",
       description:
         "Waiyers développe une suite d'applications ciblées reliées par un compte commun. Blog, actualités tech et conseil data/IA/cloud publiés sur tadata.fr.",

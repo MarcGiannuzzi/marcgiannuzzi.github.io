@@ -128,15 +128,37 @@ export default function Portfolio({ lang }: { lang: Lang }) {
                 <CardHeader>
                   <div className="flex justify-between items-start gap-4">
                     <div className="flex items-center gap-4">
-                      <MaybeLink href={exp.url} className="flex gap-2">
-                        {exp.logos.map((logo) => (
-                          <Logo key={logo} src={logo} />
-                        ))}
-                      </MaybeLink>
+                      {exp.partners ? (
+                        <div className="flex gap-2">
+                          {exp.partners.map((p) => (
+                            <MaybeLink key={p.href} href={p.href}>
+                              <Logo src={p.logo} />
+                            </MaybeLink>
+                          ))}
+                        </div>
+                      ) : (
+                        <MaybeLink href={exp.url} className="flex gap-2">
+                          {exp.logos.map((logo) => (
+                            <Logo key={logo} src={logo} />
+                          ))}
+                        </MaybeLink>
+                      )}
                       <div>
                         <CardTitle>{exp.title}</CardTitle>
                         <CardDescription>
-                          <MaybeLink href={exp.url}>{exp.company}</MaybeLink>
+                          {exp.partners ? (
+                            <>
+                              {exp.partners.map((p, i) => (
+                                <span key={p.href}>
+                                  {i > 0 && " × "}
+                                  <MaybeLink href={p.href}>{p.name}</MaybeLink>
+                                </span>
+                              ))}
+                              {exp.location && ` • ${exp.location}`}
+                            </>
+                          ) : (
+                            <MaybeLink href={exp.url}>{exp.company}</MaybeLink>
+                          )}
                         </CardDescription>
                       </div>
                     </div>
